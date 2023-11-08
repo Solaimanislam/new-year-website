@@ -139,3 +139,39 @@ body {
     font-size: 25px;
     font-weight: 500;
 }
+
+/* positive styles */
+.positive {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: 50px 250px;
+
+}
+
+.positive-title {
+    padding-top: 59px;
+    padding-left: 64px;
+    width: 459px;
+    height: 94px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.positive-btn {
+    margin-left: 64px;
+    margin-top: 24px;
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+}
