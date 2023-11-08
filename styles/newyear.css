@@ -11,19 +11,104 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
+    font-family: Work Sans;
     padding: 15px 35px;
+}
+
+.section-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
 }
 
 /* banner styles */
 
 .header {
     background: url('../images/banner/banner1.png');
-    background-repeat: no-repeat;
-    width: 3000px;
+    width: 1700px;
     height: 808px;
-    margin-top: 0;
+    flex-shrink: 0;
 }
 
-/* .banner-content{
+.banner-title {
+    margin-top: 0px;
+}
+
+.banner-content {
+    align-items: center;
+    justify-content: space-around;
+    text-align: right;
+    padding-right: 230px;
+    padding-left: 845px;
+    padding-top: 216px;
+
+}
+
+.banner-content h1 {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+.banner-content p {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* style about persons */
+.person {
     display: flex;
-} */
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.person-pic {
+    width: 451px;
+    height: 698px;
+    padding-left: 277px;
+
+}
+
+.person-pic img {
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+    background: rgba(241, 91, 34, 0.20);
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.person-detail {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.person-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.person-info {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
